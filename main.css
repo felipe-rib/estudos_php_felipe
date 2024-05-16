@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    background-color: #161A30;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_calculadora {
+    text-align: center;
+    color: #0F2167;
+    background-color: #4CB9E7;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: solid 5px #0F2167;
+    border-radius: 30px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    width: 40%;
+    font-size: 50px;
+    margin-top: 10px;
+    outline:  solid 5px #F0DE36;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_calcular {
+    text-align: center;
+    color: #0F2167;
+    background-color: #15F5BA;
+    border: solid 5px #0F2167;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    outline: solid 5px white;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.numero1, .numero2 {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.selecao_num1, .selecao_num2 {
+    color: white;
+    background-color: #836FFF;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 20px;
+}
+
+.numeros {
+    display: flex;  
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.p_operacao{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-style: normal;
+    color: white;
+    text-decoration: underline;
+}
+
+.operacao_e_calcular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecionar_operacao {
+    color: #0F2167;
+    background-color: #F0DE36;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 20px;
+    border: solid 5px #0F2167;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p_resultado {
+    margin-top: 20px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.num_resultado {
+    text-align: center;
+    color: #0F2167;
+    background-color: #4CB9E7;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 5px #0F2167;
+    border-radius: 30px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    width: 40%;
+    font-size: 50px;
+    margin-top: 10px;
+    outline:  solid 5px #F0DE36;
+}
